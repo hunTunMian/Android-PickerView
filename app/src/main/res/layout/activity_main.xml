@@ -83,6 +83,13 @@
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
                 android:text="@string/picker_use_circle_divider" />
+
+            <Button
+                android:id="@+id/btn_vita_mahjong"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:text="@string/picker_vita_mahjong_demo" />
         </LinearLayout>
 
     </ScrollView>

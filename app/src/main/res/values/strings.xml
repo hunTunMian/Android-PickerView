@@ -24,4 +24,15 @@
     <string name="picker_json_parse_sample">省市区Json文件解析示例</string>
 
 
+
+    <string name="picker_vita_mahjong_demo">Vita Mahjong玩法Demo</string>
+    <string name="vita_mahjong_rule">规则：只能选择左右至少有一侧空出的牌；选中两张相同牌即可消除。</string>
+    <string name="vita_mahjong_shuffle">打乱剩余牌</string>
+    <string name="vita_mahjong_restart">重新开局</string>
+    <string name="vita_mahjong_score">得分：%1$d</string>
+    <string name="vita_mahjong_remain">剩余：%1$d</string>
+    <string name="vita_mahjong_locked_tip">这张牌被两侧卡住了，暂时不能选。</string>
+    <string name="vita_mahjong_mismatch_tip">牌型不同，请继续尝试配对。</string>
+    <string name="vita_mahjong_win_tip">恭喜通关！你已清空全部牌。</string>
+
 </resources>

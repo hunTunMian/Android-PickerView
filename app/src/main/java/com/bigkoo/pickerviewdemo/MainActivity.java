@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btn_no_linkage = (Button) findViewById(R.id.btn_no_linkage);
         Button btn_to_Fragment = (Button) findViewById(R.id.btn_fragment);
         Button btn_circle = (Button) findViewById(R.id.btn_circle);
+        Button btnVitaMahjong = (Button) findViewById(R.id.btn_vita_mahjong);
 
 
         btn_Time.setOnClickListener(this);
@@ -85,6 +86,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_no_linkage.setOnClickListener(this);
         btn_to_Fragment.setOnClickListener(this);
         btn_circle.setOnClickListener(this);
+        btnVitaMahjong.setOnClickListener(this);
 
         findViewById(R.id.btn_GotoJsonData).setOnClickListener(this);
         findViewById(R.id.btn_lunar).setOnClickListener(this);
@@ -113,6 +115,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             pvCustomLunar.show();
         } else if (v.getId() == R.id.btn_circle) {
             startActivity(new Intent(MainActivity.this, TestCircleWheelViewActivity.class));
+        } else if (v.getId() == R.id.btn_vita_mahjong) {
+            startActivity(new Intent(MainActivity.this, VitaMahjongDemoActivity.class));
         }
     }
 
